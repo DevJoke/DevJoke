@@ -1,0 +1,13 @@
+{
+  "stories": [
+    {
+      "fullName": "Robat Das",
+      "handle": "orvi",
+      "website": "https://facebook.com/dipodijontu",
+      "bio": "A nooby coder",
+      "avatar": "getify.png",
+      "story": "Why do java programmers have to wear glasses? Because they don't see sharp.",
+      "double": true
+    }
+  ]
+}
