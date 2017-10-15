@@ -2,12 +2,48 @@
   "stories": [
     {
       "fullName": "Robat Das",
-      "handle": "orvi",
+      "handle": "orvi1",
       "website": "https://facebook.com/dipodijontu",
       "bio": "A nooby coder",
-      "avatar": "getify.png",
+      "avatar": "images.jpeg",
       "story": "Why do java programmers have to wear glasses? Because they don't see sharp.",
       "double": true
+    },
+    {
+      "fullName": "shghsdghs",
+      "handle": "orvi2",
+      "website": "https://facebook.com/dipodijontu",
+      "bio": "A nooby coder",
+      "avatar": "images.jpeg",
+      "story": "Why do java programmers have to wear glasses? Because they don't see sharp.",
+      "double": true
+    },
+    {
+      "fullName": "noob",
+      "handle": "orvi3",
+      "website": "https://facebook.com/dipodijontu",
+      "bio": "A nooby coder",
+      "avatar": "images.jpeg",
+      "story": "Why do java programmers have to wear glasses? Because they don't see sharp.",
+      "double": true
+    },
+    {
+      "fullName": "booob",
+      "handle": "orvi4",
+      "website": "https://facebook.com/dipodijontu",
+      "bio": "A nooby coder",
+      "avatar": "images.jpeg",
+      "story": "Why do java programmers have to wear glasses? Because they don't see sharp.",
+      "double": true
+    },
+    {
+      "fullName": "noobbbyyyyy",
+      "handle": "orvi5",
+      "website": "https://facebook.com/dipodijontu",
+      "bio": "A nooby coder",
+      "avatar": "images.jpeg",
+      "story": "Why do java programmers have to wear glasses? Because they don't see sharp.",
+      "double": false
     }
   ]
 }
