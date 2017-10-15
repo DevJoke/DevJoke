@@ -4,7 +4,8 @@
   "description": "A platform for producing quality jokes",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",

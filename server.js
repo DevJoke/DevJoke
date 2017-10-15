@@ -65,7 +65,8 @@ function createFeed(data) {
 function readData() {
   return JSON.parse(fs.readFileSync('data/data.json', 'utf8'));
 }
+var port = process.env.PORT || 8080;
 
-var server = app.listen(5000, function () {
-  console.log('Listening at http://localhost:5000');
+var server = app.listen(port, function () {
+  console.log('Listening at http://localhost:port/');
 });
