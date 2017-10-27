@@ -36,11 +36,11 @@ header div a:hover {
   text-decoration: none;
 }
 
-.Rejections {
+.Stories {
 	margin: 175px 25px;
 }
 
-.Rejection {
+.Story {
 	background: #FFF;
 	border: 10px solid #FFF;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
@@ -53,11 +53,11 @@ header div a:hover {
 
 @media only screen and (min-width: 650px) {
 
-  .Rejection {
+  .Story {
     width: 30%;
   }
 
-  .Rejection--width2 {
+  .Story--width2 {
     width: 65%;
   }
 }
@@ -66,7 +66,7 @@ a {
   color: #2196F3;
 }
 
-.Rejection-Profile {
+.Story-Profile {
 	width: 150px;
     height: 150px;
     background: #FFFFFF;
@@ -80,19 +80,19 @@ a {
     -ms-transform: translateX(-50%);
 }
 
-.Rejection-Bio {
+.Story-Bio {
   color: #9C27B0;
   text-transform: uppercase;
   font-size: 10px;
   font-weight: bold;
 }
 
-.Rejection-Title--Handle {
+.Story-Title--Handle {
   font-size: 14px;
   margin: -10px 0 10px;
 }
 
-.Rejection.grid-sizer {
+.Story.grid-sizer {
 	border: 0;
 	box-shadow: none;
 	padding: 0;

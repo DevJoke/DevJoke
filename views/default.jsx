@@ -41,7 +41,7 @@ var DefaultLayout = React.createClass({
             <div>Show your programming humor to the world</div>
             <div>To add your own, please <a href={'/form'}>submit Form</a> or tweet me at <a href="https://twitter.com/orvimozillian">@orvimozillian</a></div>
           </header>
-          <div className="grid text-center Rejections"><div className="grid-sizer Rejection"></div><div className="gutter-sizer"></div>{this.props.children}</div>
+          <div className="grid text-center Stories"><div className="grid-sizer Story"></div><div className="gutter-sizer"></div>{this.props.children}</div>
           <script src="/js/masonry.js"></script>
           <script src="/js/script.js"></script>
           <script src="/js/googleAnalytics.js"></script>

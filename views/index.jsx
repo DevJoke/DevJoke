@@ -1,34 +1,34 @@
 var React = require('react');
 var DefaultLayout = require('./default');
 
-var Rejections = React.createClass({
+var Stories = React.createClass({
   render: function() {
-    var rejections = this.props.stories.map(function(story) {
+    var stories = this.props.stories.map(function(joke) {
       return (
-        <div key={story.handle} className={(story.double) ? 'grid-item Rejection Rejection--width2' : 'grid-item Rejection'}>
-          <div className="Rejection-Title">
-            <h4 className="Rejection-Title--FullName">
-              {story.fullName}
+        <div key={joke.handle} className={(joke.double) ? 'grid-item Story Story--width2' : 'grid-item Story'}>
+          <div className="Story-Title">
+            <h4 className="Story-Title--FullName">
+              {joke.fullName}
             </h4>
           </div>
-          <div className="Rejection-Title--Handle">
-            <a target="_blank" href={story.website}>@{story.handle}</a>
+          <div className="Story-Title--Handle">
+            <a target="_blank" href={joke.website}>@{joke.handle}</a>
             <span> </span>
-            (<span className="Rejection-Bio">{story.bio}</span>)
+            (<span className="Story-Bio">{joke.bio}</span>)
             <span> </span>
           </div>
-          <a href={'/story/' + story.handle}>
-            <img className="Rejection-Profile" alt={story.handle} src={"/img/" + story.avatar} />
+          <a href={'/joke/' + joke.handle}>
+            <img className="Story-Profile" alt={joke.handle} src={"/img/" + joke.avatar} />
           </a>
-          <p>{story.story}</p>
+          <p>{joke.story}</p>
         </div>
       )
     });
 
     return (
-      <DefaultLayout title={this.props.title}>{rejections}</DefaultLayout>
+      <DefaultLayout title={this.props.title}>{stories}</DefaultLayout>
     )
   }
 });
 
-module.exports = Rejections;
+module.exports = Stories;
