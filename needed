@@ -1,0 +1,37 @@
+<div className="Story-Title--Handle">
+         <a target="_blank" href={joke.website}>@{joke.handle}</a>
+            <span> </span>
+            (<span className="Story-Bio">{}</span>)
+            <span> </span>
+          </div>
+          <a href={'/joke/' + joke.handle}>
+            <img className="Story-Profile" alt={joke.handle} src={"/img/" + joke.avatar} />
+          </a>
+
+=============================================
+
+<html>
+           <head>
+             <link rel="stylesheet" type="text/css" href="/css/form.css"></link>
+           </head>
+           <body>
+           <div className="form-style-5">
+           <form>
+           <fieldset>
+           <legend><span className="number">1</span> Candidate Info</legend>
+           <input type="text" name="field1" placeholder="Your Name *"/>
+           <input type="email" name="field2" placeholder="Your Email *"/>
+           <input type="text" name="field3" placeholder="Your Designation *"/>
+           <input type="file" name="pic" accept="image/*" placeholder="Your Picture*"/>
+           </fieldset>
+
+           <fieldset>
+           <legend><span className="number">2</span> Your Joke</legend>
+           <textarea name="field3" placeholder="Let's be creative...!"></textarea>
+           </fieldset>
+
+           <input type="submit" value="Submit" />
+           </form>
+           </div>
+           </body>
+           </html>
